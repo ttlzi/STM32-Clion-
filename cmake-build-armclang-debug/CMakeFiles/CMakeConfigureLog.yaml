@@ -1,0 +1,462 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      The target system is: Generic - 1 - 
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c11;-xc;-c
+      Id flags:  
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c11;-xc;-c
+      Id flags: -c 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c11;-xc;-c
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c11;-xc;-c
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c11;-xc;-c
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is ARMClang, found in:
+        C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c++11;-xc++;-c
+      Id flags:  
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c++11;-xc++;-c
+      Id flags: -c 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c++11;-xc++;-c
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      armclang: error: unsupported option '--c++'
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c++11;-xc++;-c
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      armclang: error: unsupported option '--ec++'
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: -mcpu=Cortex-M3;-std=c++11;-xc++;-c
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is ARMClang, found in:
+        C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Product: MDK Plus 5.38
+      Component: Arm Compiler for Embedded 6.19
+      Tool: armclang [5e73cb00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Product: MDK Plus 5.38
+      Component: Arm Compiler for Embedded 6.19
+      Tool: armclang [5e73cb00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+      Product: MDK Plus 5.38
+      Component: Arm Compiler for Embedded 6.19
+      Tool: armclang [5e73cb00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" matched "armclang":
+      Product: MDK Plus 5.38
+      Component: Arm Compiler for Embedded 6.19
+      Tool: armclang [5e73cb00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-43z9xn"
+      binary: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-43z9xn"
+    cmakeVariables:
+      CMAKE_C_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_C_FLAGS: "-mcpu=Cortex-M3 -std=c11 -xc -c"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-43z9xn
+        
+        Run Build Command(s):E:/Work/CLion/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe -v cmTC_a1482 && [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -mcpu=Cortex-M3 -std=c11 -xc -c  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_a1482.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Product: MDK Plus 5.38
+        Component: Arm Compiler for Embedded 6.19
+        Tool: armclang [5e73cb00]
+        
+        Target: arm-arm-none-eabi
+         (in-process)
+         "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-43z9xn" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_a1482.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -std=c11 "-fdebug-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-43z9xn" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -fcolor-diagnostics -aggressive-jump-threading -o CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -x c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include
+        End of search list.
+        [2/2] cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_a1482.a  CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Keil_v5/ARM/ARMCLANG/bin/../include]
+        end of search list found
+        collapse include dir [C:/Keil_v5/ARM/ARMCLANG/bin/../include] ==> [C:/Keil_v5/ARM/ARMCLANG/include]
+        implicit include dirs: [C:/Keil_v5/ARM/ARMCLANG/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(armlink\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-43z9xn]
+        ignore line: []
+        ignore line: [Run Build Command(s):E:/Work/CLion/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe -v cmTC_a1482 && [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -mcpu=Cortex-M3 -std=c11 -xc -c  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_a1482.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Product: MDK Plus 5.38]
+        ignore line: [Component: Arm Compiler for Embedded 6.19]
+        ignore line: [Tool: armclang [5e73cb00]]
+        ignore line: []
+        ignore line: [Target: arm-arm-none-eabi]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-43z9xn" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_a1482.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -std=c11 "-fdebug-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-43z9xn" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -fcolor-diagnostics -aggressive-jump-threading -o CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o -x c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_a1482.a  CMakeFiles/cmTC_a1482.dir/CMakeCCompilerABI.o && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-098r5m"
+      binary: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-098r5m"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_CXX_FLAGS: "-mcpu=Cortex-M3 -std=c++11 -xc++ -c"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_C_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-098r5m
+        
+        Run Build Command(s):E:/Work/CLion/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe -v cmTC_ad8a8 && [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -mcpu=Cortex-M3 -std=c++11 -xc++ -c  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -MF CMakeFiles\\cmTC_ad8a8.dir\\CMakeCXXCompilerABI.o.d -o CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Product: MDK Plus 5.38
+        Component: Arm Compiler for Embedded 6.19
+        Tool: armclang [5e73cb00]
+        
+        Target: arm-arm-none-eabi
+         (in-process)
+         "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -Werror=return-type -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-098r5m" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_ad8a8.dir\\\\CMakeCXXCompilerABI.o.d" -MT CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -sys-header-deps -D__ARMCOMPILER_LIBCXX=1 -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include\\\\libcxx" -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -std=c++11 -fdeprecated-macro "-fdebug-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-098r5m" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fsuppress-licensing -fcolor-diagnostics -aggressive-jump-threading -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -x c++ "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\\libcxx
+         C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include
+        End of search list.
+        [2/2] cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_ad8a8.a  CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Keil_v5/ARM/ARMCLANG/bin/../include/libcxx]
+          add: [C:/Keil_v5/ARM/ARMCLANG/bin/../include]
+        end of search list found
+        collapse include dir [C:/Keil_v5/ARM/ARMCLANG/bin/../include/libcxx] ==> [C:/Keil_v5/ARM/ARMCLANG/include/libcxx]
+        collapse include dir [C:/Keil_v5/ARM/ARMCLANG/bin/../include] ==> [C:/Keil_v5/ARM/ARMCLANG/include]
+        implicit include dirs: [C:/Keil_v5/ARM/ARMCLANG/include/libcxx;C:/Keil_v5/ARM/ARMCLANG/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(armlink\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-098r5m]
+        ignore line: []
+        ignore line: [Run Build Command(s):E:/Work/CLion/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe -v cmTC_ad8a8 && [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -mcpu=Cortex-M3 -std=c++11 -xc++ -c  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -MF CMakeFiles\\cmTC_ad8a8.dir\\CMakeCXXCompilerABI.o.d -o CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -c "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Product: MDK Plus 5.38]
+        ignore line: [Component: Arm Compiler for Embedded 6.19]
+        ignore line: [Tool: armclang [5e73cb00]]
+        ignore line: []
+        ignore line: [Target: arm-arm-none-eabi]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -Werror=return-type -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-098r5m" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\16.0.0" -dependency-file "CMakeFiles\\\\cmTC_ad8a8.dir\\\\CMakeCXXCompilerABI.o.d" -MT CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -sys-header-deps -D__ARMCOMPILER_LIBCXX=1 -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include\\\\libcxx" -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -std=c++11 -fdeprecated-macro "-fdebug-compilation-dir=C:\\\\Users\\\\ttl\\\\Documents\\\\STM32\\\\Temp\\\\cmake-build-armclang-debug\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-098r5m" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fsuppress-licensing -fcolor-diagnostics -aggressive-jump-threading -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o -x c++ "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Arm Compiler for Embedded 6.19 -cc1 default target aarch64-arm-none-eabi]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\\libcxx]
+        ignore line: [ C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_ad8a8.a  CMakeFiles/cmTC_ad8a8.dir/CMakeCXXCompilerABI.o && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang.cmake:260 (_record_compiler_features)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "E:/Work/CLion/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-roygrp"
+      binary: "C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-roygrp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_CXX_FLAGS: "-mcpu=Cortex-M3 -std=c++11 -xc++ -c"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_C_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-roygrp
+        
+        Run Build Command(s):E:/Work/CLion/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe -v cmTC_2abb6 && [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -mcpu=Cortex-M3 -std=c++11 -xc++ -c  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2abb6.dir/feature_tests.o -MF CMakeFiles\\cmTC_2abb6.dir\\feature_tests.o.d -o CMakeFiles/cmTC_2abb6.dir/feature_tests.o -c C:/Users/ttl/Documents/STM32/Temp/cmake-build-armclang-debug/CMakeFiles/CMakeScratch/TryCompile-roygrp/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_2abb6.a  CMakeFiles/cmTC_2abb6.dir/feature_tests.o && cd ."
+        
+      exitCode: 0
+...

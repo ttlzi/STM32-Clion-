@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "armclang",
+      "generator": "Ninja",
+      "toolchainFile": "CMake_toolchain-armclang.cmake",
+      "hidden": true
+    },
+    {
+      "name": "armclang-release",
+      "inherits": "armclang",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "armclang-debug",
+      "inherits": "armclang",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "armclang-MinSizeRel",
+      "inherits": "armclang",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "MinSizeRel"
+      }
+    },
+    {
+      "name": "armclang-RelWithDebInfo",
+      "inherits": "armclang",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    }
+  ]
+}

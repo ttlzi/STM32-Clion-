@@ -1,0 +1,680 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Temp.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_compile_options",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=Cortex-M3 -std=c11 -xc -c -g -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "--target=arm-arm-none-eabi"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-wchar"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-packed"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-variable-declarations"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-prototypes"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-noreturn"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-sign-conversion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-nonportable-include-path"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-reserved-id-macro"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-macros"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-documentation-unknown-command"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-documentation"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-license-management"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-parentheses-equality"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-reserved-identifier"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "MD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STM32F10X_MD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_RTE_"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__MICROLIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__UVISION_VERSION=\"538\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/MDK-ARM/RTE/_Temp"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/App/Soft/SRAM"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/App/Hard/DISPLAY"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=Cortex-M3 -masm=auto -gdwarf-4 -c"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "--target=arm-arm-none-eabi"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-wchar"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-packed"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-variable-declarations"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-prototypes"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-noreturn"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-sign-conversion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-nonportable-include-path"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-reserved-id-macro"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-macros"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-documentation-unknown-command"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-documentation"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-license-management"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-parentheses-equality"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-reserved-identifier"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "MD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STM32F10X_MD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_RTE_"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__MICROLIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__UVISION_VERSION=\"538\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/MDK-ARM/RTE/_Temp"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/App/Soft/SRAM"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/ttl/Documents/STM32/Temp/App/Hard/DISPLAY"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"id" : "Temp::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=Cortex-M3 -std=c11 -xc -c -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--library_type=microlib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--strict",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--summary_stderr",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--info",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "summarysizes,sizes,totals,unused,veneers",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--load_addr_map_info",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--xref",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--callgraph",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--symbols",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "--scatter=C:/Users/ttl/Documents/STM32/Temp/MDK-ARM/Temp/Temp.sct",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "Temp",
+	"nameOnDisk" : "Temp.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "App/Hard/DISPLAY/display.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "App/Soft/SRAM/sram.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f1xx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f1xx_hal_timebase_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f1xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/system_stm32f1xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "MDK-ARM/startup_stm32f103xb.s",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

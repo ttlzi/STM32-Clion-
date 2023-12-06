@@ -1,0 +1,71 @@
+-xc -std=c11
+--target=arm-arm-none-eabi
+-mcpu=cortex-m3 -c
+-fno-rtti
+-fsigned-char
+-fshort-enums
+-fshort-wchar
+-D__MICROLIB -gdwarf-4 -O0
+-ffunction-sections
+-Wno-packed
+-Wno-missing-variable-declarations
+-Wno-missing-prototypes
+-Wno-missing-noreturn
+-Wno-sign-conversion
+-Wno-nonportable-include-path
+-Wno-reserved-id-macro
+-Wno-unused-macros
+-Wno-documentation-unknown-command
+-Wno-documentation
+-Wno-license-management
+-Wno-parentheses-equality
+-Wno-reserved-identifier
+-I ../Core/Inc
+-I ../Drivers/STM32F1xx_HAL_Driver/Inc
+-I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+-I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+-I ../Drivers/CMSIS/Include
+-I./RTE/_Temp
+-IC:/Users/ttl/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Users/ttl/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+-D__UVISION_VERSION="538"
+-D_RTE_
+-DSTM32F10X_MD
+-D_RTE_
+-DUSE_HAL_DRIVER
+-DSTM32F103xB
+-o Temp/*.o
+-MD
+
+--target=arm-arm-none-eabi
+-mcpu=cortex-m3
+-masm=auto
+-Wa,armasm,--diag_suppress=A1950W -c
+-gdwarf-4
+-Wa,armasm,--pd,"__MICROLIB SETA 1"
+-I./RTE/_Temp
+-IC:/Users/ttl/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Users/ttl/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+-Wa,armasm,--pd,"__UVISION_VERSION SETA 538"
+-Wa,armasm,--pd,"_RTE_ SETA 1"
+-Wa,armasm,--pd,"STM32F10X_MD SETA 1"
+-Wa,armasm,--pd,"_RTE_ SETA 1"
+-o Temp/*.o
+
+--cpu Cortex-M3 *.o
+--library_type=microlib
+--strict
+--scatter "Temp\Temp.sct"
+--summary_stderr
+--info summarysizes
+--map
+--load_addr_map_info
+--xref
+--callgraph
+--symbols
+--info sizes
+--info totals
+--info unused
+--info veneers
+--list "Temp.map"
+-o Temp\Temp.axf
